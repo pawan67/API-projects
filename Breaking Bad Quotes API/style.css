@@ -52,8 +52,10 @@ img{
     font-family: 'IM Fell English SC', serif;
     
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-left: 55px;
+    font-weight: 700;
+    
 }
 .quotes{
     font-family: 'IM Fell English SC', serif;
@@ -63,6 +65,9 @@ img{
     font-weight: 700;
     padding: 10px 20px;
     text-align: center;
+    background-color: rgba(1, 63, 15, 0.795);
+    border-radius: 5px;
+    margin: 10px;
     
     /* width: 800px; */
 }
