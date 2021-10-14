@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Kanit:ital,wght@0,600;0,700;0,800;0,900;1,400&display=swap');
+*{
+   margin: 0;
+}
+body{
+   background: url(/background.jpg);
+   object-fit: cover;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+
+@media (max-width: 600px){
+    body{
+        background-position: -44rem;
+    }
+
+}
+.headingImg{
+width: 200px;
+margin: auto;
+margin-top: 70px;
+}
+@media (min-width: 600px){
+    .headingImg{
+        width: 300px;
+        margin: auto;
+        margin-top: 70px;
+        }
+}
+img{
+    /* width: 200px; */
+    object-fit: cover;
+    width: 100%;
+}
+.btnImg{
+    width: 200px;
+    /* position: absolute;
+    bottom: 0;
+    left: 40%; */
+    margin: auto;
+}
+.btnImg::after{
+    content: 'Click above ';
+    font-family: 'IM Fell English SC', serif;
+    
+    text-align: center;
+    color: white;
+    margin-left: 55px;
+}
+.quotes{
+    font-family: 'IM Fell English SC', serif;
+    color: white;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-align: center;
+    
+    /* width: 800px; */
+}
+.author{
+    font-family: 'IM Fell English SC', serif;
+    color: white;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-align: right;
+}
